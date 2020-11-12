@@ -39,4 +39,5 @@ Running this script, this is what happens:
 I got access to a shell from the server. I ran `ls` to see if the flag was nearby and a found a `flag.txt`. By doing `cat flag.txt`, I was able to get the value of the flag `SINFCTF2020{Call1ng_functi0ns_is_4_n00bs}`.
 
 "This program is unhackable! Don\'t even try it!".
+
 ![yeah-right](./yeah.jpg)
