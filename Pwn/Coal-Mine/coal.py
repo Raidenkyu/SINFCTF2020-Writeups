@@ -12,7 +12,7 @@ io.recvuntil("Thanks, ")
 line = io.recvuntil("\n").strip()
 value = int(line, 16)
 
-value_str = p64(value)
+value_str = "".join(chr(c) for c in p64(value))
 
 io.recvuntil("mining today?")
 
